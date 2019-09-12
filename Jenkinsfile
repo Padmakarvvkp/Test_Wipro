@@ -1,10 +1,8 @@
-
-pipeline {
-agent any
-stages {
+node ()
+{
 stage ('build') {
 }
-stage ('test: integration-&-quality') {
+stage ('test:integration-&-quality') {
 }
 stage ('test: functional') {
 }
