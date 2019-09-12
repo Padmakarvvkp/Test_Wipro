@@ -13,4 +13,3 @@ stage ('approval') {
 stage ('deploy:prod') {
 }
 }
-}
